@@ -14,4 +14,10 @@ USER app
 WORKDIR $HOME/curiosity
 RUN npm install
 
+# copy app into container as root
+USER root
+COPY . $HOME/curiosity
+RUN chown -R app:app $HOME/*
+USER app
+
 CMD ["node", "server.js"]
