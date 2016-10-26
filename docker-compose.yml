@@ -1,0 +1,7 @@
+curiosity:
+  build: .
+  ports:
+    - '3000:3000'
+  volumes:
+    - .:/home/app/curiosity
+    - /home/app/curiosity/node_modules

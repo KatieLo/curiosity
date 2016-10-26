@@ -1,0 +1,25 @@
+{
+  "name": "curiosity_bot",
+  "version": "1.0.0",
+  "description": "chat bot built with Node.js on Docker",
+  "author": "Katie Womersley <kawomersley@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatieLo/curiosity.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatieLo/curiosity/issues"
+  },
+  "homepage": "https://github.com/KatieLo/curiosity#readme",
+  "keywords": []
+}
